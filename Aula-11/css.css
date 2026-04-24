@@ -1,0 +1,45 @@
+.box {
+    content: "";
+    display: block;
+    width: 47%;
+     height: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 60px;
+    text-align: center;
+    box-shadow: 15px 15px 40px rgb(0, 0, 0);
+}
+
+
+.box h1{
+    text-align: center;
+    font-size: 40px;
+    color: #104c6e;
+    text-shadow: 10px 10px 10px rgb(19, 40, 105);
+}
+
+.box h2{
+    text-align: left;
+    font-size: 30px;
+    color: #4193b9;
+}
+
+.box p{
+    text-align: left;
+    font-size: 25px;
+
+}
+
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle, white, #4193b9, #03293f);
+}
